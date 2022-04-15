@@ -1,6 +1,7 @@
 User Documentation
 ===
-#A high-level description. 
+A high-level description. 
+----
 Student information management system can input or modify student information, student information including student number, name, class, math scores, foreign language scores and computer scores. Query results through the input student number, add or delete student information, in accordance with the single subject score, total score, average score, student number for sorting.
 
 How to install the software. 
