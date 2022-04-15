@@ -6,7 +6,8 @@ Go to GitHub and download it at https://github.com/xuyan-9494/Software-Engineeri
 
 The layout of your directory structure.
 ----
-TestProj  ——Include         
+TestProj  
+           ——Include         
            ——Source         
            ——Shared         
            ——Resource        
