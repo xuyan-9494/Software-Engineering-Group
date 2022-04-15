@@ -47,9 +47,9 @@ Definition: according to the internal structure of the program, logic drives the
 Objective: To test whether the internal action of the product is carried out in accordance with the specifications of the design specification, and whether each path of the inspection program can work according to the predetermined requirements.
 Object: source program.
 Using branches, paths, and conditions within the code, the control structure of the program is designed to export test cases.
-1.Interface object testing process
+*Interface object testing process
 Interface object (UI) → Business object (BO) → Data management object (DMO) →DBserver
-2.business object test process
+*business object test process
 DBserver → Data Management Object (DMO) → Business Object (BO) → Interface object (UI)
 
 1. Try to use automated tools for static parsing first.
