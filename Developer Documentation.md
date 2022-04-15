@@ -48,7 +48,7 @@ Objective: To test whether the internal action of the product is carried out in 
 Object: source program.
 Using branches, paths, and conditions within the code, the control structure of the program is designed to export test cases.
 * Interface object testing process  
-*Interface object (UI) → Business object (BO) → Data management object (DMO) →DBserver
+Interface object (UI) → Business object (BO) → Data management object (DMO) →DBserver
 * business object test process  
 DBserver → Data Management Object (DMO) → Business Object (BO) → Interface object (UI)
 
@@ -59,37 +59,37 @@ DBserver → Data Management Object (DMO) → Business Object (BO) → Interface
 
 How to add new tests. 
 ----
-Overview: mainly check the consistency of the code and flow diagram design, the rationality of the code structure, the standard of the code, readability, the correctness of the logical expression of the code and so on. It includes variable checking, naming and type checking, program logic checking, program syntax checking and program structure checking.
-Objective:
-(1) Check whether the code is written according to a standard or specification;
-(2) Check the code to find defects;
-(3) It is easy to find errors by checking the code;
-(4) Check the code to find out whether the code is required by the flowchart;
-(5) Check the code to find missing items;
-(6) For code to be portable, it often needs to be run on different hardware or compiled using different compilers;
-Make your code easy to read, understand, and maintain.
+Overview: mainly check the consistency of the code and flow diagram design, the rationality of the code structure, the standard of the code, readability, the correctness of the logical expression of the code and so on. It includes variable checking, naming and type checking, program logic checking, program syntax checking and program structure checking.  
+Objective:  
+(1) Check whether the code is written according to a standard or specification;  
+(2) Check the code to find defects;  
+(3) It is easy to find errors by checking the code;  
+(4) Check the code to find out whether the code is required by the flowchart;  
+(5) Check the code to find missing items;  
+(6) For code to be portable, it often needs to be run on different hardware or compiled using different compilers;  
+Make your code easy to read, understand, and maintain.  
 
-Method:
-(1) Check the desktop
-(2) Walkthrough
-(3) Code review
+Method:  
+(1) Check the desktop  
+(2) Walkthrough  
+(3) Code review  
 
-Project:
-(1) Directory file organization
-(2) Check the function
-(3) Data types and variables
-(4) Check the condition judgment statement
-(5) Check the circulation system
-(6) Review code comments
-(7) Desktop check
+Project:  
+(1) Directory file organization  
+(2) Check the function  
+(3) Data types and variables  
+(4) Check the condition judgment statement  
+(5) Check the circulation system  
+(6) Review code comments  
+(7) Desktop check  
 
 How to build a release of the software.
 ----
-X.Y.Z.build
-X -- Software major version, corresponding to product major version;
-Y -- Sub-version of software, indicating a wide range of feature additions and changes, and bug fixes;
-Z -- Incremental version of software, usually a major bug fix.
-Build -- The internal version of the software, represented by an 8-bit date. If there are two releases in one day, they are described as build-1 and build-2.
-X, Y, and Z are versions that can be added based on changes after a product is released.
-Internally submit test versions 1.0.0.20160602, 1.0.0.20160603-1, and 1.0.0.20160603-2.
-During internal testing, X, Y, and Z do not change. After product release, X, Y, and Z will change accordingly.
+X.Y.Z.build  
+X -- Software major version, corresponding to product major version;  
+Y -- Sub-version of software, indicating a wide range of feature additions and changes, and bug fixes;  
+Z -- Incremental version of software, usually a major bug fix.  
+Build -- The internal version of the software, represented by an 8-bit date. If there are two releases in one day, they are described as build-1 and build-2.  
+X, Y, and Z are versions that can be added based on changes after a product is released.  
+Internally submit test versions 1.0.0.20160602, 1.0.0.20160603-1, and 1.0.0.20160603-2.  
+During internal testing, X, Y, and Z do not change. After product release, X, Y, and Z will change accordingly.  
