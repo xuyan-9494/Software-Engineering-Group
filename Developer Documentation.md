@@ -29,17 +29,17 @@ TestProj  ——Include
 
 How to build the software.
 ----
-Generate, render HTML, a short description of the internal framework for generating HTML, including the main classes and concepts.
-Data binding: A method of updating a business object based on an HTTPPOST request.
-Multi-page data capture: Describes the internal framework for building web forms.
-web mvc
-Security: Methods of authentication and authorization using Windows Identity Foundation (WiF).
-Domain model: An overview of important parts of the domain model.
-Component framework: A brief description of the framework that is built by reconfiguring components at run time.
-Configuration: A brief description of the framework built to reconfigure components at run time.
-Architectural layering: An overview of layering strategies and patterns to implement.
-Exceptions and diaries.
-Patterns and Principles.
+Generate, render HTML, a short description of the internal framework for generating HTML, including the main classes and concepts.  
+Data binding: A method of updating a business object based on an HTTPPOST request.  
+Multi-page data capture: Describes the internal framework for building web forms.  
+web mvc  
+Security: Methods of authentication and authorization using Windows Identity Foundation (WiF).  
+Domain model: An overview of important parts of the domain model.  
+Component framework: A brief description of the framework that is built by reconfiguring components at run time.  
+Configuration: A brief description of the framework built to reconfigure components at run time.  
+Architectural layering: An overview of layering strategies and patterns to implement.  
+Exceptions and diaries.  
+Patterns and Principles.  
 
 How to test the software. 
 ----
