@@ -48,9 +48,9 @@ Objective: To test whether the internal action of the product is carried out in 
 Object: source program.
 Using branches, paths, and conditions within the code, the control structure of the program is designed to export test cases.
 * Interface object testing process
-Interface object (UI) → Business object (BO) → Data management object (DMO) →DBserver
+          Interface object (UI) → Business object (BO) → Data management object (DMO) →DBserver
 * business object test process
-DBserver → Data Management Object (DMO) → Business Object (BO) → Interface object (UI)
+           DBserver → Data Management Object (DMO) → Business Object (BO) → Interface object (UI)
 
 1. Try to use automated tools for static parsing first.
 2. It is recommended to start with static testing (static structure analysis, code walk, static quality measurement) and then move on to dynamic testing (e.g., coverage testing).
