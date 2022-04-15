@@ -2,7 +2,7 @@ Developer Documentation
 ===
 How to obtain the source code. 
 ----
-Go to GitHub and download it at https://github.com/xuyan-9494/Software-Engineering-Group---Student-Management-System.git
+Go to GitHub and download it at https://github.com/xuyan-9494/Software-Engineering-Group.git
 
 The layout of your directory structure.
 ----
